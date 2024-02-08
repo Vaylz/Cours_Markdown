@@ -1,5 +1,5 @@
 # Cours_Markdown
-C'est le cours sur Markdown du 08/02/2024 (évolutif)
+>C'est le cours sur Markdown du 08/02/2024 (évolutif)
 
 <!-- les différents titre-->
 
@@ -38,3 +38,22 @@ ou
 ![Image avec url](http://url-de-l'image.com)
 
 ![Image dans le fichier](/README.md)
+
+
+<!-- ajouter un bloc de code -->
+```sh
+docker run -tid -p 8080:80 --name site1 httpd 
+```
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cours Markdown</title>
+</head>
+<body>
+    
+</body>
+</html>
+```
